@@ -23,3 +23,12 @@ console.log(lista.toString())
 
 lista.insertAt(2, -4)
 console.log(lista.toString())
+
+let removido = lista.pop()
+console.log(lista.toString(), {removido})
+
+let outraLista = new LinkedList()
+outraLista.push('amarelo')
+console.log(outraLista.toString())
+removido = outraLista.pop()
+console.log(outraLista.toString(), {removido})
